@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     caret-color: transparent;
-    font-family: "Roboto";
 }
 img {  
 
@@ -16,12 +15,23 @@ body{
     background-color:#d8dce0;
     margin: 0;
 }
+header{
+    
+    background-color: white;
+   /*  position: sticky; */
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
 h1{
     font-size: 75px;
 }
 .container{
     height: auto;
-    width: 472px;
+    width: 600px;
     background: white;
     margin: 75px auto;
     
@@ -29,73 +39,31 @@ h1{
 .header{
     display: flex;
     align-items:center;
-    padding-left: 1rem;
-    height: 60px;
-}
-.fa-ellipsis{
-    margin-right: 15px;
 }
 .header h2{
-    width:90%;
+    width:80%;
 }
-.header img{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    margin-right: 10px;
+.header p{
+    width:20%;
+    text-align: right;
+    margin: 10px;
+    color:darkgrey;
 }
 .container .image {
     background-color: whitesmoke;
-    width: 472px;
-    height: 472px;
+    width: 600px;
+    height: 600px;
     align-items:center;
     display: flex;
 }
 .container .image img{
-    width:472px;
+    width:600px;
     height:auto;
     object-fit: contain;
 }
-.icons {
-    display:flex;
-    width:472px;
-    height:30px;
-    align-items: center;
-}
-.fa-regular{
-    padding-left: 10px;
-    padding-top: 10px;
-
-}
-.icons .right{
-    padding-left: 340px;
-}
-.likes p{
-    width:472px;
-    height:auto;
-    padding: 15px 15px 0px 15px;
-    margin: 0px;
-}
 .text{
-    width:472px;
-    padding: 0px 15px 10px 15px;
-    margin: 0px;
+    width:600px;
+    height:auto;
+    padding: 1px 20px;
 }
-.comments{
-    width:472px;
-    margin: 0px;
-}
-.time{
-    width:472px;
-    font-size: 12px;
-    margin: 0px;
-}
-.grey{
-    margin-bottom: 1px;
-    color: rgb(175, 175, 175);
-}
-.ubi{
-    padding: 0;
-    margin-left: 4rem;
-    margin-top: -1rem;
-}
+
